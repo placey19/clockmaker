@@ -1,0 +1,44 @@
+--------------------------
+Clock Maker v1.1 By Necro
+--------------------------
+
+Allows you to create various clocks on the map that you can save and will load again on map load.
+
+Say '/cm' to bring up the main menu.
+
+
+Clock Types
+------------
+- Server time (Displays the servers time +/- the time offset CVAR value)
+- Map timeleft (Displays the amount of time remaining on the map)
+
+
+CVARs
+------
+cm_hourtype 1 (0: 12 hour clocks, 1: 24 hour clocks)
+cm_hourannounce 1 (hear the hour spoken on the hour)
+cm_timeoffset 0 (offset the time to a different timezone +/- hours)
+
+
+Main Menu
+----------
+1. Create server time clock (Aim at a wall to create a clock displaying the server time)
+2. Create map timeleft clock (Aim at a wall to create a clock displaying the timeleft on the map)
+
+4. Delete clock (Aim at a clock to delete it)
+
+5. Make larger (Aim at a clock to scale it larger)
+6. Make smaller (Aim at a clock to scale it smaller)
+
+7. Save clocks (Saves the clocks to a file, they load on map load)
+8. Load clocks (Re-load the clock from file)
+
+0. Close (Closes the menu)
+
+
+v1.1 Changelist
+----------------
+- Added a 'map timeleft' clock type
+- Added 'cm_hourannounce' and 'cm_timeoffset' CVARs
+- Added an hour alert option
+- Added option to offset the current time for different timezones
